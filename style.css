@@ -50,6 +50,16 @@ body:active{
     top: 50%;
     transform: translate(0%, -50%);
 }
+#index.maintext{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+#sources.maintext{
+    margin-left: 0px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .bttm{
     font-family: DSEtype;
     font-size: 16px;
@@ -137,10 +147,17 @@ body:active{
         transition: opacity 1.5s;
     }
 }
+.text_bg_box{
+    width: 480px;
+    height:640px;
+    margin-left: 430px;
+    position: absolute;
+}
 .text_bg{
     height:300px;
-    margin-left: 550px;
-    margin-top: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
     opacity:0.2;
 }
